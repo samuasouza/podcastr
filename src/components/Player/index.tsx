@@ -18,7 +18,9 @@ export function Player() {
                 <div className={styles.progress}>
                     <span>00:00</span>
 
-                    <div className={styles.emptySlider} />
+                    <div className={styles.slider}>
+                        <div className={styles.emptySlider} />
+                    </div>
                     <span>00:00</span>
                 </div>
 
@@ -40,6 +42,6 @@ export function Player() {
                     </button>
                 </div>
             </footer>
-        </div>
+        </div >
     );
 }
